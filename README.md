@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Geethika Dilshan Jayarathna</h1>
-<h3 align="center">A passionate frontend developer from Sri Lankan</h3>
+<h3 align="center">A passionate Fullstack developer from Sri Lankan</h3>
 
 - 🔭 I’m currently working on *Sri Lankan Port Authority.*
 
