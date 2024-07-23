@@ -15,7 +15,7 @@
 
 - ⚡ Fun fact *Learning, Traveling, Gaming*
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:+94786878622</h3>
 <p align="left">
 </p>
 
