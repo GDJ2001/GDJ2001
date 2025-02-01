@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Geethika Dilshan Jayarathna</h1>
 <h3 align="center">A passionate Fullstack developer from Sri Lankan</h3>
 
-- 🔭 I’m currently working on *Sri Lankan Port Authority.*
+- 🔭 I’m currently working on *null.*
 
 - 🌱 I’m currently learning *Fit, hardware course*
 
