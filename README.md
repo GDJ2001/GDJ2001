@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Geethika Dilshan Jayarathna</h1>
 <h3 align="center">A passionate Fullstack developer from Sri Lankan</h3>
 
-- 🔭 I’m currently working on *null.*
+- 🔭 I’m currently working on **
 
-- 🌱 I’m currently learning *Fit, hardware course*
+- 🌱 I’m currently learning *BIT*
 
 - 👨‍💻 All of my projects are available at [https://github.com/GDJ2001](https://github.com/GDJ2001)
 
