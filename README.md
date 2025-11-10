@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **
 
-- 🌱 I’m currently learning *BIT*
+- 🌱 I’m currently learning *Bachelor of Information Technology in University of Colombo*
 
 - 👨‍💻 All of my projects are available at [https://github.com/GDJ2001](https://github.com/GDJ2001)
 
