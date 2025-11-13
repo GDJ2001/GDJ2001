@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently a Job Seeker
 
-- 🌱 I’m currently learning *Bachelor of Information Technology in University of Colombo*
+- 🌱 I’m currently learning *Bachelor of Information Technology from University of Colombo*
 
 - 👨‍💻 All of my projects are available at [https://github.com/GDJ2001](https://github.com/GDJ2001)
 
