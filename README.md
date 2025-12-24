@@ -7,11 +7,11 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/GDJ2001](https://github.com/GDJ2001)
 
+- 🔗 Portfolio: [https://gdj.engineer/](https://gdj.engineer/)
+
 - 💬 Ask me about *HTML,java script, CSS, PHP*
 
 - 📫 How to reach me *A.l123jayarathna@gmail.com*
-
--🔗 Portfolio: [My Portfolio] (http://gdj.engineer/)
 
 - 📄 Know about my experiences [CV](https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link)
 
