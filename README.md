@@ -57,14 +57,14 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/>
   </a>
 
-  <!-- Laravel (use jsDelivr-hosted devicon SVG) -->
+  <!-- Laravel (use shields.io badge which reliably renders on GitHub) -->
   <a href="https://laravel.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="laravel" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="laravel-badge" width="110" height="28"/>
   </a>
 
-  <!-- Tailwind CSS (use jsDelivr-hosted devicon SVG) -->
+  <!-- Tailwind CSS (use shields.io badge which reliably renders on GitHub) -->
   <a href="https://tailwindcss.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwind-badge" width="130" height="28"/>
   </a>
 
   <!-- Symfony -->
