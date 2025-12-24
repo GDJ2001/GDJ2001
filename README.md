@@ -11,6 +11,8 @@
 
 - 📫 How to reach me *A.l123jayarathna@gmail.com*
 
+-🔗 Portfolio: [My Portfolio] (http://gdj.engineer/)
+
 - 📄 Know about my experiences [CV](https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link)
 
 - ⚡ Fun fact *Learning, Traveling, Gaming*
