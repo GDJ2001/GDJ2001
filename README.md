@@ -3,18 +3,20 @@
 
 <p align="center">
 Building scalable, secure, and modern web applications with strong backend architecture and AI-enhanced workflows.
-</p>
+</p align="center">
 
 ---
+<div align="center">
 
-- 🔭 I’m currently a Job Seeker  
-- 🎓 Undergraduate – *Bachelor of Information Technology, University of Colombo*  
-- 👨‍💻 Projects: [https://github.com/GDJ2001](https://github.com/GDJ2001)  
-- 🔗 Portfolio: [https://gdj.engineer/](https://gdj.engineer/)  
-- 📫 Email: **A.l123jayarathna@gmail.com**  
-- 📄 CV: [View Here](https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link)  
-- ⚡ Interests: Learning • Traveling • Gaming  
+🔭 <strong>Currently:</strong> Job Seeker<br>
+🎓 <strong>Education:</strong> Bachelor of Information Technology – University of Colombo<br>
+👨‍💻 <strong>Projects:</strong> <a href="https://github.com/GDJ2001">github.com/GDJ2001</a><br>
+🔗 <strong>Portfolio:</strong> <a href="https://gdj.engineer/">gdj.engineer</a><br>
+📫 <strong>Email:</strong> A.l123jayarathna@gmail.com<br>
+📄 <strong>CV:</strong> <a href="https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link">View Here</a><br>
+⚡ <strong>Interests:</strong> Learning • Traveling • Gaming •PC Building & Repair
 
+</div>
 <h3 align="center">Contact: +94 786 878 622</h3>
 
 ---
@@ -22,7 +24,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 ## Technology Stack
 
 ### Languages
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6+-111111?style=for-the-badge&logo=javascript" />
   <img src="https://img.shields.io/badge/TypeScript-TS-111111?style=for-the-badge&logo=typescript" />
   <img src="https://img.shields.io/badge/PHP-Backend-111111?style=for-the-badge&logo=php" />
@@ -32,7 +34,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 </p>
 
 ### Frontend
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Angular-Frontend-111111?style=for-the-badge&logo=angular" />
   <img src="https://img.shields.io/badge/React-UI_Library-111111?style=for-the-badge&logo=react" />
   <img src="https://img.shields.io/badge/Vue.js-Frontend_Framework-111111?style=for-the-badge&logo=vue.js" />
@@ -42,7 +44,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 </p>
 
 ### Backend
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/NestJS-Backend-111111?style=for-the-badge&logo=nestjs" />
   <img src="https://img.shields.io/badge/Node.js-Runtime-111111?style=for-the-badge&logo=node.js" />
   <img src="https://img.shields.io/badge/Express-Framework-111111?style=for-the-badge&logo=express" />
@@ -54,7 +56,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 </p>
 
 ### Databases
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/SQLite-Raw_SQL-111111?style=for-the-badge&logo=sqlite" />
   <img src="https://img.shields.io/badge/MySQL-Relational-111111?style=for-the-badge&logo=mysql" />
   <img src="https://img.shields.io/badge/PostgreSQL-Relational-111111?style=for-the-badge&logo=postgresql" />
@@ -64,7 +66,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 </p>
 
 ### DevOps & Cloud
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Google_Cloud-Platform-111111?style=for-the-badge&logo=googlecloud" />
   <img src="https://img.shields.io/badge/Docker-Containers-111111?style=for-the-badge&logo=docker" />
   <img src="https://img.shields.io/badge/Git-Version_Control-111111?style=for-the-badge&logo=git" />
@@ -73,7 +75,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 </p>
 
 ### AI & Modern Engineering
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/LLM-Integration-111111?style=for-the-badge&logo=openai" />
   <img src="https://img.shields.io/badge/Prompt-Engineering-111111?style=for-the-badge" />
   <img src="https://img.shields.io/badge/GitHub-Copilot-111111?style=for-the-badge&logo=github" />
