@@ -1,103 +1,89 @@
 <h1 align="center">Hi 👋, I'm Geethika Dilshan Jayarathna</h1>
-<h3 align="center">A passionate Fullstack developer from Sri Lanka</h3>
+<h3 align="center">Full-Stack Developer | AI-Integrated Systems | Sri Lanka</h3>
 
-- 🔭 I’m currently a Job Seeker
-
-- 🌱 I’m currently learning *Bachelor of Information Technology from University of Colombo*
-
-- 👨‍💻 All of my projects are available at [https://github.com/GDJ2001](https://github.com/GDJ2001)
-
-- 🔗 Portfolio: [https://gdj.engineer/](https://gdj.engineer/)
-
-- 💬 Ask me about *HTML, JavaScript, CSS, PHP*
-
-- 📫 How to reach me *A.l123jayarathna@gmail.com*
-
-- 📄 Know about my experiences [CV](https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link)
-
-- ⚡ Fun fact *Learning, Traveling, Gaming*
-
-<h3 align="left">Connect with me: +94786878622</h3>
-<p align="left">
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <!-- SQL (MySQL) -->
-  <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-
-  <!-- React -->
-  <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-
-  <!-- MongoDB -->
-  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-  </a>
-
-  <!-- MERN (MongoDB, Express, React, Node) - representative icons -->
-  <a href="https://mern.io" target="_blank" rel="noreferrer" title="MERN Stack">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-  </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer" title="Express.js">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org" target="_blank" rel="noreferrer" title="React">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer" title="MongoDB">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-  </a>
-
-  <!-- Google Cloud Platform -->
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/>
-  </a>
-
-  <!-- Laravel (use shields.io badge which reliably renders on GitHub) -->
-  <a href="https://laravel.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="laravel-badge" width="110" height="28"/>
-  </a>
-
-  <!-- Tailwind CSS (use shields.io badge which reliably renders on GitHub) -->
-  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwind-badge" width="130" height="28"/>
-  </a>
-
-  <!-- Symfony -->
-  <a href="https://symfony.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" alt="symfony" width="40" height="40"/>
-  </a>
-
-  <!-- npm -->
-  <a href="https://www.npmjs.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"/>
-  </a>
-
-  <!-- Vite -->
-  <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" alt="vite" width="40" height="40"/>
-  </a>
-
-  <!-- Git -->
-  <a href="https://git-scm.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="git" width="40" height="40"/>
-  </a>
-</p>
-
-<!-- Optional: Short notes about selected tech -->
-<h3 align="left">Selected Tech Highlights</h3>
-
-- MERN Stack: MongoDB, Express.js, React, Node.js — used for fullstack JavaScript apps.
-- Google Cloud Platform: deploying applications and services to the cloud.
-- Laravel & Symfony: PHP frameworks for building backend applications.
-- Tailwind CSS & Vite: modern frontend tooling for fast UI development and bundling.
-- SQL & MongoDB: relational and NoSQL databases (choose based on app needs).
-
-<!-- Footer -->
 <p align="center">
-  <em>Thanks for visiting my profile — feel free to check my portfolio and projects linked above.</em>
+Building scalable, secure, and modern web applications with strong backend architecture and AI-enhanced workflows.
+</p>
+
+---
+
+- 🔭 I’m currently a Job Seeker  
+- 🎓 Undergraduate – *Bachelor of Information Technology, University of Colombo*  
+- 👨‍💻 Projects: [https://github.com/GDJ2001](https://github.com/GDJ2001)  
+- 🔗 Portfolio: [https://gdj.engineer/](https://gdj.engineer/)  
+- 📫 Email: **A.l123jayarathna@gmail.com**  
+- 📄 CV: [View Here](https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link)  
+- ⚡ Interests: Learning • Traveling • Gaming  
+
+<h3 align="center">Contact: +94 786 878 622</h3>
+
+---
+
+## Technology Stack
+
+### Languages
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-111111?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/PHP-Backend-111111?style=for-the-badge&logo=php" />
+  <img src="https://img.shields.io/badge/SQL-Database-111111?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/HTML5-Markup-111111?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS3-Styling-111111?style=for-the-badge&logo=css3" />
+</p>
+
+### Frontend
+<p>
+  <img src="https://img.shields.io/badge/React-UI_Library-111111?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Utility_First-111111?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Vite-Bundler-111111?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Responsive-Design-111111?style=for-the-badge" />
+</p>
+
+### Backend
+<p>
+  <img src="https://img.shields.io/badge/Node.js-Runtime-111111?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/Express-Framework-111111?style=for-the-badge&logo=express" />
+  <img src="https://img.shields.io/badge/Laravel-PHP_Framework-111111?style=for-the-badge&logo=laravel" />
+  <img src="https://img.shields.io/badge/Symfony-PHP_Framework-111111?style=for-the-badge&logo=symfony" />
+  <img src="https://img.shields.io/badge/REST-API-111111?style=for-the-badge" />
+</p>
+
+### Databases
+<p>
+  <img src="https://img.shields.io/badge/MySQL-Relational-111111?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/MongoDB-NoSQL-111111?style=for-the-badge&logo=mongodb" />
+  <img src="https://img.shields.io/badge/Data_Modeling-Optimization-111111?style=for-the-badge" />
+</p>
+
+### DevOps & Cloud
+<p>
+  <img src="https://img.shields.io/badge/Google_Cloud-Platform-111111?style=for-the-badge&logo=googlecloud" />
+  <img src="https://img.shields.io/badge/Git-Version_Control-111111?style=for-the-badge&logo=git" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-111111?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Linux-Environment-111111?style=for-the-badge&logo=linux" />
+</p>
+
+### AI & Modern Engineering
+<p>
+  <img src="https://img.shields.io/badge/LLM-Integration-111111?style=for-the-badge&logo=openai" />
+  <img src="https://img.shields.io/badge/Prompt-Engineering-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub-Copilot-111111?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/API_First-Architecture-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Modular-System_Design-111111?style=for-the-badge" />
+</p>
+
+---
+
+## GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GDJ2001&show_icons=true&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GDJ2001&layout=compact&hide_border=true" height="170"/>
+</p>
+
+---
+
+## Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GDJ2001&hide_border=true"/>
 </p>
