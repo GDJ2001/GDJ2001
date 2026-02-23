@@ -83,6 +83,16 @@ Building scalable, secure, and modern web applications with strong backend archi
 
 ---
 
+## Profile Overview
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=GDJ2001&style=for-the-badge&color=111111" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/GDJ2001?style=for-the-badge&color=111111&label=Followers" />
+  <img src="https://img.shields.io/github/stars/GDJ2001?style=for-the-badge&color=111111&label=Stars%20Received" />
+</p>
+
+---
+
 ## GitHub Analytics
 
 <p align="center">
