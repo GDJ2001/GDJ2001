@@ -13,7 +13,7 @@ Building scalable, secure, and modern web applications with strong backend archi
 👨‍💻 <strong>Projects:</strong> <a href="https://github.com/GDJ2001">github.com/GDJ2001</a><br>
 🔗 <strong>Portfolio:</strong> <a href="https://gdj.engineer/">gdj.engineer</a><br>
 📫 <strong>Email:</strong> A.l123jayarathna@gmail.com<br>
-📄 <strong>CV:</strong> <a href="https://drive.google.com/file/d/1urJx6z87KUhdxji8A_0HxHGHn9xzZrjF/view?usp=drive_link">View Here</a><br>
+📄 <strong>CV:</strong> <a href="https://drive.google.com/file/d/1iJIcGxIRB8idD3ZaoTovsnJ0_Ts07r-w/view?usp=sharing">View Here</a><br>
 ⚡ <strong>Interests:</strong> Learning • Traveling • Gaming •PC Building & Repair
 
 </div>
