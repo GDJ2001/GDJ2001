@@ -10,6 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
+from profile_metrics import build_metrics
+
 ROOT = Path(__file__).resolve().parents[1]
 USERNAME = "GDJ2001"
 
@@ -35,6 +37,8 @@ def main():
             break
         page += 1
 
+    # Complete every remote fetch before updating any committed assets.
+    metric_artifacts = build_metrics(user, repos, github)
     stats = [
         ("PUBLIC REPOSITORIES", len(repos)),
         ("FOLLOWERS", user["followers"]),
@@ -80,6 +84,8 @@ def main():
 </svg>
 '''
     (ROOT / "assets" / "github-overview-mobile.svg").write_text(mobile, encoding="utf-8")
+    for name, svg in metric_artifacts.items():
+        (ROOT / "assets" / name).write_text(svg, encoding="utf-8")
     print(f"Updated public profile cards: {len(repos)} repositories, {user['followers']} followers.")
 
 

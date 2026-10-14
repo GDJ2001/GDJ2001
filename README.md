@@ -154,6 +154,37 @@ Connecting AI capabilities to applications and improving development workflows.
 
 ## GitHub at a glance
 
+### Contributions & streaks
+
+<a href="https://github.com/GDJ2001?tab=overview">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/contribution-streaks-mobile.svg" />
+    <img src="assets/contribution-streaks.svg" width="100%" alt="Total contributions, current contribution streak, and longest contribution streak, with date ranges." />
+  </picture>
+</a>
+
+All-time contributions visible on my public profile. Streaks count consecutive days with contributions; the current streak stays active if I contributed yesterday and haven't contributed today yet.
+
+### Most used languages
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/top-languages-mobile.svg" />
+  <img src="assets/top-languages.svg" width="100%" alt="Most used languages ranked by code volume across my public non-fork repositories, excluding this profile repository." />
+</picture>
+
+Language percentages reflect GitHub's repository code analysis. My broader technology stack is listed above.
+
+### Activity over time
+
+<a href="https://github.com/GDJ2001?tab=overview">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/contribution-activity-mobile.svg" />
+    <img src="assets/contribution-activity.svg" width="100%" alt="Monthly contributions over the last twelve calendar months, including contribution totals and active days. The current month is partial." />
+  </picture>
+</a>
+
+### Repositories & community
+
 <a href="https://github.com/GDJ2001?tab=repositories">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/github-overview-mobile.svg" />
@@ -168,6 +199,8 @@ Connecting AI capabilities to applications and improving development workflows.
   &nbsp; · &nbsp;
   <a href="https://github.com/GDJ2001?tab=followers">Community ↗</a>
 </p>
+
+<p align="center"><sub>Updated daily · Each card shows its refresh date · <a href="assets/CREDITS.md">How these metrics are calculated</a></sub></p>
 
 ## Let's connect
 
