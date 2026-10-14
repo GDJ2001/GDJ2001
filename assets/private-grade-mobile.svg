@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title">
+  <title id="title">Private activity grade A+, custom contribution volume tier, verified 14 Oct 2026 UTC</title>
+  <defs><linearGradient id="accent"><stop stop-color="#58e8d4"/><stop offset="1" stop-color="#74a7ff"/></linearGradient></defs>
+  <rect width="480" height="260" rx="16" fill="#0b1627"/>
+  <rect x=".5" y=".5" width="479" height="259" rx="16" fill="none" stroke="#263a54"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="240" y="37" font-size="13" letter-spacing="2" fill="#b5c6d8">PRIVATE ACTIVITY GRADE</text>
+    <text x="240" y="146" font-size="100" font-weight="700" fill="url(#accent)">A+</text>
+    <text x="240" y="188" font-size="18" fill="#e6edf3">Owner-verified contribution tier</text>
+    <text x="240" y="218" font-size="13" fill="#8da9c0">No private repo details shared</text>
+    <text x="240" y="244" font-size="11" fill="#8da9c0">VERIFIED 14 OCT 2026 UTC</text>
+  </g>
+</svg>

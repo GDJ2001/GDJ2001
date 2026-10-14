@@ -154,6 +154,15 @@ Connecting AI capabilities to applications and improving development workflows.
 
 ## GitHub at a glance
 
+### Private activity grade
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/private-grade-mobile.svg" />
+  <img src="assets/private-grade.svg" width="100%" alt="A+ private activity grade. Custom contribution-volume tier verified with owner-visible GitHub data; no private repository details are shared." />
+</picture>
+
+This **custom activity grade** reflects contributions in private work visible to me as the account owner. It is a contribution-volume tier, not an official GitHub rating. [See the grading method and verification date](assets/CREDITS.md#private-activity-grade).
+
 ### Contributions & streaks
 
 <a href="https://github.com/GDJ2001?tab=overview">

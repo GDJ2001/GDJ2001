@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="228" viewBox="0 0 960 228" role="img" aria-labelledby="title">
+  <title id="title">Private activity grade A+, custom contribution volume tier, verified 14 Oct 2026 UTC</title>
+  <defs><linearGradient id="accent"><stop stop-color="#58e8d4"/><stop offset="1" stop-color="#74a7ff"/></linearGradient></defs>
+  <rect width="960" height="228" rx="16" fill="#0b1627"/>
+  <rect x=".5" y=".5" width="959" height="227" rx="16" fill="none" stroke="#263a54"/>
+  <path d="M675 28V185" stroke="#263a54"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="40" y="50" font-size="14" letter-spacing="2" fill="#58e8d4">PRIVATE ACTIVITY GRADE</text>
+    <text x="40" y="98" font-size="31" font-weight="700" fill="#e6edf3">Work beyond the public repos.</text>
+    <text x="40" y="131" font-size="18" fill="#b5c6d8">A custom contribution-volume tier,</text>
+    <text x="40" y="158" font-size="18" fill="#b5c6d8">verified with owner-visible GitHub activity.</text>
+    <text x="40" y="201" font-size="12" fill="#8da9c0">NO PRIVATE REPOSITORY DETAILS SHARED · VERIFIED 14 OCT 2026 UTC</text>
+    <text x="817" y="154" text-anchor="middle" font-size="118" font-weight="700" fill="url(#accent)">A+</text>
+    <text x="817" y="188" text-anchor="middle" font-size="13" fill="#b5c6d8">CONTRIBUTION TIER</text>
+  </g>
+</svg>

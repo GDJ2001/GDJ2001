@@ -23,3 +23,11 @@ The grade applies the published [GitHub Readme Stats `calculateRank` formula](ht
 - **Languages:** summed bytes from the [GitHub repository languages endpoint](https://docs.github.com/en/rest/repos/repos#list-repository-languages), across public owned repositories excluding forks and this generated profile repository. Shows the seven largest language categories plus Other when needed. Includes archived repositories. These percentages describe repository contents, not personal proficiency or authorship.
 
 The calendar is fetched without authentication, so the statistics match what public visitors can see. Each year must have complete daily counts; an unexpected HTML format, missing day, or network/API error fails the refresh and preserves the existing cards. All cards are snapshots, so a new contribution appears after a successful refresh. The workflow can also be run manually from the Actions tab.
+
+## Private activity grade
+
+The A+ card is a **custom, owner-verified contribution-volume tier**, not a GitHub rating or a claim about code quality. It uses GitHub's `restrictedContributionsCount` from the authenticated account's last twelve months. The owner checked the count using the GitHub CLI; the committed card contains only the resulting grade and verification date. No private repository names, private source code, raw counts, or credentials are stored in this repository.
+
+The published thresholds are: **S** at 5,000 or more restricted contributions, **A+** at 3,000, **A** at 2,000, **B+** at 1,000, **B** at 250, and **C** below 250. These tiers measure contribution volume only. The card was calculated by [update_private_grade.py](../scripts/update_private_grade.py). To refresh it, the owner runs `python scripts/update_private_grade.py` while authenticated with `gh`; this is intentionally separate from the daily workflow because the repository's built-in Actions token cannot see the owner's private contribution history.
+
+For comparison, the commonly used [GitHub README Stats](https://github.com/anuraghazra/github-readme-stats) project has a different ranking formula and graded this account **B** when calculated with available private statistics on 14 October 2026. Its grade and this activity tier describe different calculations.
