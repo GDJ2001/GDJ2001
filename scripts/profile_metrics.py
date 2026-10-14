@@ -176,7 +176,69 @@ def monthly_card(days, today, mobile=False):
     return card(width, height, 'Monthly contribution activity over twelve calendar months', content, today)
 
 
-def build_metrics(user, repos, github):
+def calculate_grade(data, public_stars):
+    """Implement the public GitHub Readme Stats rank formula."""
+    values = {
+        'commits': data['commits']['totalCommitContributions'],
+        'pull requests': data['pullRequests']['totalCount'],
+        'issues': data['openedIssues']['totalCount'] + data['closedIssues']['totalCount'],
+        'reviews': data['reviews']['totalPullRequestReviewContributions'],
+        'stars': public_stars,
+        'followers': data['followers']['totalCount'],
+    }
+    weights = {'commits': 2, 'pull requests': 3, 'issues': 1,
+               'reviews': 1, 'stars': 4, 'followers': 1}
+    medians = {'commits': 250, 'pull requests': 50, 'issues': 25,
+               'reviews': 2, 'stars': 50, 'followers': 10}
+    rank_sum = 0.0
+    for metric, value in values.items():
+        ratio = value / medians[metric]
+        cdf = ratio / (1 + ratio) if metric in ('stars', 'followers') else 1 - 2 ** -ratio
+        rank_sum += weights[metric] * cdf
+    score = 100 * rank_sum / sum(weights.values())
+    boundaries = [(99, 'S'), (87.5, 'A+'), (75, 'A'), (62.5, 'A-'),
+                  (50, 'B+'), (37.5, 'B'), (25, 'B-'), (12.5, 'C+'), (0, 'C')]
+    grade = next((letter for minimum, letter in boundaries if score >= minimum), 'C')
+    return {'grade': grade, 'score': max(0, min(100, score)), 'inputs': values,
+            'commits_year': datetime.now(timezone.utc).year}
+
+
+def grade_card(grade, today, mobile=False):
+    width, height = (480, 430) if mobile else (960, 300)
+    score = grade['score']
+    grade_color = '#58e8d4' if grade['grade'] in ('S', 'A+', 'A') else '#74a7ff' if grade['grade'] in ('A-', 'B+', 'B') else '#f2bb7c'
+    content = text(28, 38, 'COMMUNITY PROFILE RANK', 16, '#e6edf3', weight=600)
+    if mobile:
+        content += f'<circle cx="240" cy="143" r="64" fill="#102339" stroke="#263a54" stroke-width="10"/>'
+        content += f'<circle cx="240" cy="143" r="64" fill="none" stroke="{grade_color}" stroke-width="10" stroke-linecap="round" stroke-dasharray="{2 * 3.14159 * 64 * score / 100:.2f} {2 * 3.14159 * 64:.2f}" transform="rotate(-90 240 143)"/>'
+        content += text(240, 159, grade['grade'], 40, grade_color, 'middle', 700)
+        content += text(240, 238, f"{score:.1f} / 100 weighted rank score", 18, '#d5e2ef', 'middle', 600)
+        content += text(240, 270, 'GitHub Readme Stats rank model', 13, '#8da9c0', 'middle')
+        for i, metric in enumerate(('commits', 'pull requests', 'issues', 'reviews', 'stars', 'followers')):
+            col, row = i % 2, i // 2
+            value = grade['inputs'][metric]
+            label = 'commits ' + str(grade['commits_year']) if metric == 'commits' else metric
+            content += text(35 + col * 230, 316 + row * 28, f'{label}: {value:,}', 13, '#b5c6d8')
+    else:
+        content += '<path d="M250 78V222M700 78V222" stroke="#263a54"/>'
+        content += f'<circle cx="145" cy="149" r="65" fill="#102339" stroke="#263a54" stroke-width="10"/>'
+        content += f'<circle cx="145" cy="149" r="65" fill="none" stroke="{grade_color}" stroke-width="10" stroke-linecap="round" stroke-dasharray="{2 * 3.14159 * 65 * score / 100:.2f} {2 * 3.14159 * 65:.2f}" transform="rotate(-90 145 149)"/>'
+        content += text(145, 165, grade['grade'], 40, grade_color, 'middle', 700)
+        content += text(335, 124, f"{score:.1f} / 100", 32, grade_color, weight=700)
+        content += text(335, 154, 'weighted rank score', 15, '#d5e2ef', weight=600)
+        content += text(335, 184, 'GitHub Readme Stats rank model', 13, '#8da9c0')
+        metrics = list(grade['inputs'].items())
+        for index, (label, value) in enumerate(metrics):
+            col, row = index % 2, index // 2
+            x, y = 748 + col * 112, 105 + row * 36
+            label = f"{grade['commits_year']} commits" if label == 'commits' else label
+            content += text(x, y, f'{value:,}', 17, PALETTE[index], weight=700)
+            content += text(x, y + 16, label, 10, '#b5c6d8')
+    content += text(width / 2, height - 46, 'A GitHub activity rank · Not a measure of engineering skill', 12, '#8da9c0', 'middle')
+    return card(width, height, f"GitHub Readme Stats community rank {grade['grade']}, weighted score {score:.1f} out of 100", content, today)
+
+
+def build_metrics(user, repos, github, rank_data):
     today = datetime.now(timezone.utc).date()
     joined = date.fromisoformat(user['created_at'][:10])
     days = fetch_calendar(user['login'], joined, today)
@@ -190,6 +252,11 @@ def build_metrics(user, repos, github):
         artifacts[f'contribution-streaks{suffix}.svg'] = streak_card(days, today, mobile)
         artifacts[f'top-languages{suffix}.svg'] = language_card(languages, len(eligible), today, mobile)
         artifacts[f'contribution-activity{suffix}.svg'] = monthly_card(days, today, mobile)
+    public_stars = sum(repo['stargazers_count'] for repo in repos)
+    grade = calculate_grade(rank_data, public_stars)
+    for mobile in (False, True):
+        suffix = '-mobile' if mobile else ''
+        artifacts[f'github-grade{suffix}.svg'] = grade_card(grade, today, mobile)
     summary = streaks(days, today)
-    print(f"Contributions: {sum(days.values()):,}; current streak: {summary['current']}; longest: {summary['longest']}; languages: {len(languages)}.")
+    print(f"Contributions: {sum(days.values()):,}; current streak: {summary['current']}; longest: {summary['longest']}; languages: {len(languages)}; profile rank {grade['grade']} ({grade['score']:.1f}).")
     return artifacts

@@ -31,6 +31,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add assets/github-overview.svg assets/github-overview-mobile.svg
           git add assets/contribution-streaks*.svg assets/top-languages*.svg assets/contribution-activity*.svg
+          git add assets/github-grade*.svg
           if git diff --cached --quiet; then
             exit 0
           fi

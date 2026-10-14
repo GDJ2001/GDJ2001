@@ -6,6 +6,7 @@ Optional: GITHUB_TOKEN to increase the API rate limit. No third-party packages.
 
 import json
 import os
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -26,6 +27,25 @@ def github(path):
         return json.load(response)
 
 
+def github_graphql(query, variables):
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        token = subprocess.run(["gh", "auth", "token"], check=True, capture_output=True,
+                               text=True, encoding="utf-8").stdout.strip()
+    request = Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query, "variables": variables}).encode("utf-8"),
+        headers={"Accept": "application/vnd.github+json", "Content-Type": "application/json",
+                 "Authorization": f"Bearer {token}", "User-Agent": "GDJ2001-profile"},
+        method="POST",
+    )
+    with urlopen(request, timeout=30) as response:
+        result = json.load(response)
+    if result.get("errors") or not result.get("data", {}).get("user"):
+        raise ValueError("GitHub did not return the public profile rank data.")
+    return result["data"]["user"]
+
+
 def main():
     user = github(f"users/{USERNAME}")
     repos = []
@@ -38,7 +58,21 @@ def main():
         page += 1
 
     # Complete every remote fetch before updating any committed assets.
-    metric_artifacts = build_metrics(user, repos, github)
+    rank_query = """query($login: String!, $from: DateTime!) {
+      user(login: $login) {
+        followers { totalCount }
+        commits: contributionsCollection(from: $from) { totalCommitContributions }
+        reviews: contributionsCollection { totalPullRequestReviewContributions }
+        pullRequests(first: 1) { totalCount }
+        openedIssues: issues(states: OPEN) { totalCount }
+        closedIssues: issues(states: CLOSED) { totalCount }
+      }
+    }"""
+    rank_data = github_graphql(rank_query, {
+        "login": user["login"],
+        "from": f"{datetime.now(timezone.utc).year}-01-01T00:00:00Z",
+    })
+    metric_artifacts = build_metrics(user, repos, github, rank_data)
     stats = [
         ("PUBLIC REPOSITORIES", len(repos)),
         ("FOLLOWERS", user["followers"]),

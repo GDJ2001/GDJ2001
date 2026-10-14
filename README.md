@@ -183,7 +183,16 @@ Language percentages reflect GitHub's repository code analysis. My broader techn
   </picture>
 </a>
 
-### Repositories & community
+### GitHub grade
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/github-grade-mobile.svg" />
+  <img src="assets/github-grade.svg" width="100%" alt="GitHub community profile rank and weighted score based on current-year commits, authored pull requests and issues, reviews, public repository stars, and followers." />
+</picture>
+
+This uses the published [GitHub Readme Stats rank formula](https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js). It is a community activity comparison, **not a measure of engineering skill**. Commits are for the current year; pull requests, issues, reviews, stars, and followers are public profile totals.
+
+### Public profile snapshot
 
 <a href="https://github.com/GDJ2001?tab=repositories">
   <picture>
