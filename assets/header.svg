@@ -1,44 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
-  <title id="title">Geethika Dilshan Jayarathna</title>
-  <desc id="desc">Full-stack developer in Sri Lanka. Thoughtful interfaces. Dependable systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Geethika Dilshan Jayarathna — Full-stack developer</title>
+  <desc id="desc">Software engineering illustration: code is typed in an editor, an application preview comes to life, and a terminal completes a build. Thoughtful interfaces. Dependable systems. Sri Lanka.</desc>
   <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081323"/><stop offset="1" stop-color="#111d36"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#58e8d4"/><stop offset="1" stop-color="#74a7ff"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#225876" stop-opacity=".5"/><stop offset="1" stop-color="#111d36" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8ebcda" stroke-opacity=".06"/></pattern>
-  </defs>
-  <style>
-    .orbit{transform-origin:768px 178px;animation:orbit 36s linear infinite}
-    .pulse{animation:pulse 4s ease-in-out infinite}
-    .cursor{animation:blink 1.4s steps(2,end) infinite}
-    @keyframes orbit{to{transform:rotate(360deg)}}
-    @keyframes pulse{50%{opacity:.4}}
-    @keyframes blink{50%{opacity:0}}
-    @media(prefers-reduced-motion:reduce){.orbit,.pulse,.cursor{animation:none}}
-  </style>
-  <rect width="960" height="380" rx="20" fill="url(#bg)"/>
-  <rect width="960" height="380" rx="20" fill="url(#grid)"/>
-  <circle cx="768" cy="178" r="240" fill="url(#halo)"/>
-  <rect x="1" y="1" width="958" height="378" rx="19" fill="none" stroke="#263a54"/>
-  <rect x="40" y="38" width="44" height="4" rx="2" fill="url(#accent)"/>
-  <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="97" y="45" fill="#9db6cc" font-size="13" letter-spacing="2.5">DEVELOPER / BUILDER / PROBLEM SOLVER</text>
-    <text x="40" y="123" fill="#f0f6fc" font-size="49" font-weight="700" letter-spacing="-1.8">Geethika Dilshan</text>
-    <text x="40" y="179" fill="url(#accent)" font-size="49" font-weight="700" letter-spacing="-1.8">Jayarathna<tspan class="cursor" fill="#58e8d4">_</tspan></text>
-    <text x="42" y="229" fill="#d5e2ef" font-size="22">Thoughtful interfaces.</text>
-    <text x="42" y="261" fill="#d5e2ef" font-size="22">Dependable systems.</text>
-    <path d="M40 296H920" stroke="#283d55"/>
-    <circle class="pulse" cx="48" cy="336" r="5" fill="#58e8d4"/>
-    <text x="63" y="341" fill="#b5c6d8" font-size="14">OPEN TO DEVELOPER OPPORTUNITIES</text>
-    <text x="920" y="341" text-anchor="end" fill="#9db6cc" font-size="14">SRI LANKA · GDJ2001</text>
+  <linearGradient id="background" x2="1" y2="1"><stop stop-color="#081321"/><stop offset="1" stop-color="#101e35"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#62edcf"/><stop offset="1" stop-color="#79adff"/></linearGradient>
+  <linearGradient id="glass" x2="0.8" y2="1"><stop stop-color="#233a54"/><stop offset="1" stop-color="#122339"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#327d96" stop-opacity=".25"/><stop offset="1" stop-color="#327d96" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#81a5ca" opacity=".11"/></pattern>
+  <filter id="shadow" x="-30%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020911" flood-opacity=".65"/></filter>
+  <clipPath id="line1"><rect class="reveal line1" x="75" y="88" width="240" height="17"/></clipPath>
+  <clipPath id="line2"><rect class="reveal line2" x="75" y="111" width="240" height="17"/></clipPath>
+  <clipPath id="line3"><rect class="reveal line3" x="75" y="134" width="240" height="17"/></clipPath>
+  <clipPath id="line4"><rect class="reveal line4" x="75" y="157" width="240" height="17"/></clipPath>
+</defs>
+<style>
+  .reveal{animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:steps(25,end)}
+  .line1{animation-name:type1}.line2{animation-name:type2}.line3{animation-name:type3}.line4{animation-name:type4}
+  @keyframes type1{0%,3%{width:0}18%,94%{width:240px}100%{width:0}}
+  @keyframes type2{0%,15%{width:0}30%,94%{width:240px}100%{width:0}}
+  @keyframes type3{0%,27%{width:0}42%,94%{width:240px}100%{width:0}}
+  @keyframes type4{0%,39%{width:0}54%,94%{width:240px}100%{width:0}}
+  .progress{animation:build 12s ease-in-out infinite;transform-origin:0 0}
+  @keyframes build{0%,43%{width:0}68%,94%{width:207px}100%{width:0}}
+  .success{animation:success 12s ease-in-out infinite}
+  @keyframes success{0%,62%{opacity:0;transform:translateY(4px)}70%,94%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+  .building{opacity:0;animation:building 12s ease-in-out infinite}
+  @keyframes building{0%,5%{opacity:0}10%,58%{opacity:1}65%,100%{opacity:0}}
+  .preview{animation:float 6s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  .bars{animation:bars 12s ease-in-out infinite;transform-origin:282px 207px}
+  @keyframes bars{0%,50%{transform:scaleY(.15);opacity:.35}70%,94%{transform:scaleY(1);opacity:1}100%{transform:scaleY(.15);opacity:.35}}
+  .flow{stroke-dasharray:5 11;animation:flow 2s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-32}}
+  .status{animation:pulse 3s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.5}}
+  @media(prefers-reduced-motion:reduce){.reveal,.progress,.success,.building,.preview,.bars,.flow,.status{animation:none}.building{opacity:0}}
+</style>
+  <rect width="960" height="420" rx="20" fill="url(#background)"/>
+  <rect width="960" height="420" rx="20" fill="url(#dots)"/>
+  <ellipse cx="768.0" cy="168.0" rx="300" ry="240" fill="url(#glow)"/>
+  <rect x="1" y="1" width="958" height="418" rx="19" fill="none" stroke="#2a4058"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><path d="M40 41h34" stroke="#62edcf" stroke-width="3"/>
+        <text x="87" y="46" fill="#9db6cc" font-size="12" letter-spacing="2.4">FULL-STACK DEVELOPER</text>
+        <text x="40" y="132" fill="#f0f6fc" font-size="48" font-weight="700" letter-spacing="-1.8">Geethika Dilshan</text>
+        <text x="40" y="190" fill="url(#accent)" font-size="48" font-weight="700" letter-spacing="-1.8">Jayarathna</text>
+        <text x="42" y="247" fill="#d5e2ef" font-size="22">Thoughtful interfaces.</text>
+        <text x="42" y="279" fill="#d5e2ef" font-size="22">Dependable systems.</text>
+        <text x="42" y="319" fill="#7f9bb7" font-size="12" letter-spacing="2">WEB / BACKEND / AI</text><path d="M40 357H920" stroke="#283d55"/>
+        <circle cx="45" cy="390" r="4" fill="#62edcf" class="status"/>
+        <text x="58" y="395" fill="#b5c6d8" font-size="12">OPEN TO DEVELOPER OPPORTUNITIES</text>
+        <text x="920" y="395" text-anchor="end" fill="#8da9c0" font-size="12">SRI LANKA · GDJ2001</text></g>
+  <g transform="translate(553 38)">
+  <g fill="none" stroke="#345d76" stroke-width="1.4">
+    <path d="M299 190v47q0 18-18 18h-33"/>
+    <path class="flow" d="M299 190v47q0 18-18 18h-33" stroke="#62edcf"/>
   </g>
-  <g fill="none" stroke="#395976">
-    <circle cx="768" cy="178" r="116" stroke-dasharray="3 9"/>
-    <circle cx="768" cy="178" r="85"/>
-    <path d="M652 178H690M846 178H884M768 62V99M768 256V294"/>
+  <g filter="url(#shadow)">
+    <rect x="0" y="6" width="344" height="213" rx="13" fill="#0b1526" stroke="#39536e"/>
+    <path d="M13 6h318q13 0 13 13v22H0V19Q0 6 13 6" fill="#1b2b40"/>
+    <circle cx="17" cy="24" r="3.5" fill="#f18e98"/>
+    <circle cx="30" cy="24" r="3.5" fill="#f2cb82"/>
+    <circle cx="43" cy="24" r="3.5" fill="#69dab5"/>
+    <text x="178" y="28" text-anchor="middle" fill="#a4bdd5" font-family="Consolas,monospace" font-size="10">workspace / app.ts</text>
+    <path d="M0 41h344M55 41v177" stroke="#283d55"/>
+    <g fill="#506b87"><rect x="14" y="61" width="25" height="4" rx="2"/><rect x="20" y="77" width="21" height="4" rx="2"/><rect x="20" y="93" width="16" height="4" rx="2"/><rect x="20" y="109" width="23" height="4" rx="2"/><rect x="14" y="139" width="25" height="4" rx="2"/><rect x="20" y="155" width="19" height="4" rx="2"/></g>
+    <path d="m10 61-3 2 3 2m0 74-3 2 3 2" stroke="#8ba9c5" fill="none"/>
+    <rect x="55" y="41" width="87" height="28" fill="#162b40"/>
+    <rect x="55" y="41" width="87" height="2" fill="#62edcf"/>
+    <text x="69" y="59" fill="#79adff" font-family="Consolas,monospace" font-size="10">TS</text>
+    <text x="89" y="59" fill="#d5e2ef" font-family="Consolas,monospace" font-size="10">app.ts</text>
+    <text x="159" y="59" fill="#708ba5" font-family="Consolas,monospace" font-size="10">api.ts</text>
+    <g font-family="Consolas,monospace" font-size="10" fill="#49617a"><text x="62" y="101">1</text><text x="62" y="124">2</text><text x="62" y="147">3</text><text x="62" y="170">4</text><text x="62" y="193">5</text></g>
+    <g font-family="Consolas,monospace" font-size="11.5" fill="#d5e2ef">
+      <text x="79" y="101" clip-path="url(#line1)"><tspan fill="#bba6ff">async function</tspan> <tspan fill="#79adff">build</tspan>() {</text>
+      <text x="79" y="124" clip-path="url(#line2)">  <tspan fill="#bba6ff">const</tspan> app = <tspan fill="#79adff">createApp</tspan>();</text>
+      <text x="79" y="147" clip-path="url(#line3)">  <tspan fill="#bba6ff">await</tspan> app.<tspan fill="#62edcf">connect</tspan>();</text>
+      <text x="79" y="170" clip-path="url(#line4)">  <tspan fill="#bba6ff">return</tspan> app.<tspan fill="#62edcf">start</tspan>();</text>
+      <text x="79" y="193">}</text>
+    </g>
+    <circle cx="326" cy="56" r="3" fill="#62edcf" class="status"/>
   </g>
-  <g class="orbit"><circle cx="768" cy="62" r="6" fill="#58e8d4"/><circle cx="768" cy="294" r="5" fill="#74a7ff"/><circle cx="652" cy="178" r="4" fill="#b5a0ff"/></g>
-  <rect x="712" y="122" width="112" height="112" rx="26" fill="#10273a" stroke="#58e8d4" stroke-opacity=".6"/>
-  <path d="m748 159-19 19 19 19m40-38 19 19-19 19m-12-48-16 58" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g font-family="Consolas,monospace" font-size="11" fill="#92adc4"><text x="768" y="34" text-anchor="middle">BUILD WITH INTENT</text><text x="879" y="127">API</text><text x="637" y="248">AI</text></g>
+  <g class="preview">
+    <g filter="url(#shadow)">
+      <rect x="245" y="121" width="119" height="114" rx="12" fill="url(#glass)" stroke="#547996"/>
+      <path d="M245 148h119" stroke="#47627b"/>
+      <circle cx="258" cy="135" r="3" fill="#62edcf"/>
+      <text x="270" y="139" fill="#d5e2ef" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1">LIVE PREVIEW</text>
+      <rect x="257" y="159" width="45" height="5" rx="2.5" fill="#91afc9"/>
+      <rect x="257" y="171" width="30" height="3" rx="1.5" fill="#54718b"/>
+      <path d="M257 208h95" stroke="#54718b"/>
+      <g class="bars"><rect x="263" y="189" width="12" height="18" rx="3" fill="#7aa9ff"/><rect x="284" y="178" width="12" height="29" rx="3" fill="#8f9bff"/><rect x="305" y="184" width="12" height="23" rx="3" fill="#73ccd9"/><rect x="326" y="169" width="12" height="38" rx="3" fill="#62edcf"/></g>
+      <rect x="257" y="220" width="47" height="3" rx="1.5" fill="#54718b"/>
+      <rect x="310" y="220" width="25" height="3" rx="1.5" fill="#54718b"/>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="-12" y="234" width="250" height="67" rx="10" fill="#0a1925" stroke="#34536c"/>
+    <text x="3" y="255" font-family="Consolas,monospace" font-size="11" fill="#d5e2ef"><tspan fill="#62edcf">$</tspan> npm run build</text>
+    <rect x="4" y="263" width="207" height="3" rx="1.5" fill="#263a54"/>
+    <rect class="progress" x="4" y="263" width="207" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="building" x="4" y="285" font-family="Consolas,monospace" font-size="10" fill="#8da9c0">compiling application...</text>
+    <g class="success"><path d="m5 281 3 3 6-7" stroke="#62edcf" stroke-width="1.5" fill="none" stroke-linecap="round"/><text x="22" y="285" font-family="Consolas,monospace" font-size="10" fill="#62edcf">build complete · ready to ship</text></g>
+  </g>
+</g>
 </svg>
