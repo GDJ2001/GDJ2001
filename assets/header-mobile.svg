@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="350" viewBox="0 0 480 350" role="img" aria-labelledby="title">
+  <title id="title">Geethika Dilshan Jayarathna. Thoughtful interfaces. Dependable systems. Sri Lanka.</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081323"/><stop offset="1" stop-color="#142a40"/></linearGradient></defs>
+  <style>.cursor{animation:blink 1.4s steps(2,end) infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+  <rect width="480" height="350" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="478" height="348" rx="17" stroke="#263a54" fill="none"/>
+  <path d="M30 36h36" stroke="#58e8d4" stroke-width="3"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="80" y="41" fill="#9db6cc" font-size="12" letter-spacing="2">DEVELOPER / BUILDER</text><text x="30" y="109" fill="#f0f6fc" font-size="38" font-weight="700">Geethika Dilshan</text><text x="30" y="156" fill="#58e8d4" font-size="38" font-weight="700">Jayarathna<tspan class="cursor">_</tspan></text><text x="30" y="207" fill="#d5e2ef" font-size="22">Thoughtful interfaces.</text><text x="30" y="238" fill="#d5e2ef" font-size="22">Dependable systems.</text><path d="M30 266h420" stroke="#34536c"/><circle cx="35" cy="292" r="5" fill="#58e8d4"/><text x="50" y="297" font-size="13" fill="#b5c6d8">OPEN TO DEVELOPER OPPORTUNITIES</text><text x="30" y="326" font-size="12" fill="#9db6cc">SRI LANKA · GDJ2001</text></g>
+</svg>

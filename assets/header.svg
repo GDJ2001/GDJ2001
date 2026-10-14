@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+  <title id="title">Geethika Dilshan Jayarathna</title>
+  <desc id="desc">Full-stack developer in Sri Lanka. Thoughtful interfaces. Dependable systems.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081323"/><stop offset="1" stop-color="#111d36"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#58e8d4"/><stop offset="1" stop-color="#74a7ff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#225876" stop-opacity=".5"/><stop offset="1" stop-color="#111d36" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8ebcda" stroke-opacity=".06"/></pattern>
+  </defs>
+  <style>
+    .orbit{transform-origin:768px 178px;animation:orbit 36s linear infinite}
+    .pulse{animation:pulse 4s ease-in-out infinite}
+    .cursor{animation:blink 1.4s steps(2,end) infinite}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes pulse{50%{opacity:.4}}
+    @keyframes blink{50%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){.orbit,.pulse,.cursor{animation:none}}
+  </style>
+  <rect width="960" height="380" rx="20" fill="url(#bg)"/>
+  <rect width="960" height="380" rx="20" fill="url(#grid)"/>
+  <circle cx="768" cy="178" r="240" fill="url(#halo)"/>
+  <rect x="1" y="1" width="958" height="378" rx="19" fill="none" stroke="#263a54"/>
+  <rect x="40" y="38" width="44" height="4" rx="2" fill="url(#accent)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="97" y="45" fill="#9db6cc" font-size="13" letter-spacing="2.5">DEVELOPER / BUILDER / PROBLEM SOLVER</text>
+    <text x="40" y="123" fill="#f0f6fc" font-size="49" font-weight="700" letter-spacing="-1.8">Geethika Dilshan</text>
+    <text x="40" y="179" fill="url(#accent)" font-size="49" font-weight="700" letter-spacing="-1.8">Jayarathna<tspan class="cursor" fill="#58e8d4">_</tspan></text>
+    <text x="42" y="229" fill="#d5e2ef" font-size="22">Thoughtful interfaces.</text>
+    <text x="42" y="261" fill="#d5e2ef" font-size="22">Dependable systems.</text>
+    <path d="M40 296H920" stroke="#283d55"/>
+    <circle class="pulse" cx="48" cy="336" r="5" fill="#58e8d4"/>
+    <text x="63" y="341" fill="#b5c6d8" font-size="14">OPEN TO DEVELOPER OPPORTUNITIES</text>
+    <text x="920" y="341" text-anchor="end" fill="#9db6cc" font-size="14">SRI LANKA · GDJ2001</text>
+  </g>
+  <g fill="none" stroke="#395976">
+    <circle cx="768" cy="178" r="116" stroke-dasharray="3 9"/>
+    <circle cx="768" cy="178" r="85"/>
+    <path d="M652 178H690M846 178H884M768 62V99M768 256V294"/>
+  </g>
+  <g class="orbit"><circle cx="768" cy="62" r="6" fill="#58e8d4"/><circle cx="768" cy="294" r="5" fill="#74a7ff"/><circle cx="652" cy="178" r="4" fill="#b5a0ff"/></g>
+  <rect x="712" y="122" width="112" height="112" rx="26" fill="#10273a" stroke="#58e8d4" stroke-opacity=".6"/>
+  <path d="m748 159-19 19 19 19m40-38 19 19-19 19m-12-48-16 58" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Consolas,monospace" font-size="11" fill="#92adc4"><text x="768" y="34" text-anchor="middle">BUILD WITH INTENT</text><text x="879" y="127">API</text><text x="637" y="248">AI</text></g>
+</svg>

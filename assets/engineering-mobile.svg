@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title">
+  <title id="title">Connected thinking: interfaces, APIs, data, and AI</title>
+  <rect width="480" height="260" rx="16" fill="#0b1627"/>
+  <g fill="#11243a" stroke="#34536c"><rect x="24" y="60" width="204" height="78" rx="12"/><rect x="252" y="60" width="204" height="78" rx="12"/><rect x="24" y="158" width="204" height="78" rx="12"/><rect x="252" y="158" width="204" height="78" rx="12"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle"><text x="240" y="34" fill="#58e8d4" font-size="13" letter-spacing="2">FROM SCREEN TO SYSTEM</text><g fill="#e6edf3" font-size="22" font-weight="600"><text x="126" y="92">Interfaces</text><text x="354" y="92">APIs</text><text x="126" y="190">Data</text><text x="354" y="190">AI</text></g><g fill="#9db6cc" font-size="12"><text x="126" y="117">Responsive by design</text><text x="354" y="117">Secure foundations</text><text x="126" y="215">Structured to scale</text><text x="354" y="215">Useful intelligence</text></g></g>
+</svg>

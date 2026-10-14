@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title">
+  <title id="title">Let's build something useful. Open to developer opportunities and collaboration.</title>
+  <defs><linearGradient id="bg"><stop stop-color="#102c3b"/><stop offset="1" stop-color="#14213e"/></linearGradient></defs>
+  <rect width="960" height="180" rx="18" fill="url(#bg)"/>
+  <path d="M770 0 590 180M840 0 660 180M910 0 730 180M980 0 800 180" stroke="#58e8d4" stroke-opacity=".1"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="40" y="49" fill="#58e8d4" font-size="12" letter-spacing="2.5">HAVE AN OPPORTUNITY OR AN IDEA?</text><text x="40" y="100" fill="#f0f6fc" font-size="36" font-weight="700">Let's build something useful.</text><text x="40" y="137" fill="#b5c6d8" font-size="17">Open to developer opportunities and collaboration.</text></g>
+  <circle cx="868" cy="90" r="33" fill="#58e8d4"/>
+  <path d="M854 104 881 77m-23 0h23v23" fill="none" stroke="#102c3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
